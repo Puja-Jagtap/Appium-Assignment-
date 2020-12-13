@@ -21,11 +21,11 @@ public class Appium_Test {
 //		Search 65 Inch TV
 		driver.findElement(By.id("com.ebay.mobile:id/search_box")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.id("com.ebay.mobile:id/search_src_text")).sendKeys("65-inch tv");
+		driver.findElement(By.id("com.ebay.mobile:id/search_src_text")).sendKeys("65-inch tv 4k");
 		Thread.sleep(1000);
 		driver.findElement(By.id("com.ebay.mobile:id/text")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.id("com.ebay.mobile:id/cell_collection_item")).click();
+		driver.findElement(By.xpath("//android.widget.RelativeLayout[@text='' and @index='2']")).click();
 		
 //		check Description message and item price
 		Thread.sleep(1000);
