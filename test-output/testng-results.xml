@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49736" started-at="2020-12-16T09:14:39Z" finished-at="2020-12-16T09:15:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49736" started-at="2020-12-16T09:14:39Z" finished-at="2020-12-16T09:15:29Z">
+      <class name="Appium_Assignment.Appium_Test">
+        <test-method status="PASS" signature="testready()[pri:0, instance:Appium_Assignment.Appium_Test@a4258a25]" name="testready" is-config="true" duration-ms="15004" started-at="2020-12-16T14:44:39Z" finished-at="2020-12-16T14:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testready -->
+        <test-method status="PASS" signature="eBayProductAddition()[pri:0, instance:Appium_Assignment.Appium_Test@a4258a25]" name="eBayProductAddition" duration-ms="32063" started-at="2020-12-16T14:44:54Z" finished-at="2020-12-16T14:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eBayProductAddition -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Appium_Assignment.Appium_Test@a4258a25]" name="teardown" is-config="true" duration-ms="2605" started-at="2020-12-16T14:45:26Z" finished-at="2020-12-16T14:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=eBayProductAddition status=SUCCESS method=Appium_Test.eBayProductAddition()[pri:0, instance:Appium_Assignment.Appium_Test@a4258a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Appium_Assignment.Appium_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
